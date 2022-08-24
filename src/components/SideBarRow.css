@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&display=swap");
+.sidebar_row {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 192px;
+  padding: 10px 20px;
+}
+.icon_img {
+  color: #606060;
+  font-size: 22px !important;
+  width: 50px;
+  padding-bottom: 22px;
+  margin-top: 22px;
+}
+.sidebarRow_title {
+  flex: 1;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.sidebar_row:hover {
+  background-color: #2d313d;
+  cursor: pointer;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-left: 15px;
+  width: 205px;
+}
+.sidebar_row:hover ::after {
+  content: "";
+  position: absolute;
+  right: 0;
+
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  margin-top: -70px;
+  border-radius: 50%;
+  box-shadow: 35px 35px 0 10px #2d313d;
+  pointer-events: none;
+}
+.sidebar_row:hover ::before {
+  content: "";
+  position: absolute;
+  right: 0;
+
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  margin-top: 53px;
+  border-radius: 50%;
+  box-shadow: 35px -25px 0px 10px #2d313d;
+  pointer-events: none;
+}
+@media only screen and (min-height: 1500px) {
+  .icon_img {
+    color: #606060;
+    font-size: 30px !important;
+    width: 50px;
+    padding-bottom: 50px;
+    margin-top: 25px;
+    margin-left: 16px;
+  }
+}
