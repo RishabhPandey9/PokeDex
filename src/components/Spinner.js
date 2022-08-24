@@ -14,7 +14,7 @@ const Spinner = () => {
       
        </div>
 <div>
-Scrole down to load more !!
+Scrole down to load more. !!
 </div>
    
       </div>
